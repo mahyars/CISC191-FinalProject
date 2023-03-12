@@ -19,7 +19,7 @@ public class MusicTrack implements Serializable, Comparable<MusicTrack> {
     private String filepath;
     private int duration;
     private int year;
-    private MediaPlayer player;
+    MediaPlayer player;
     private double trackDuration;
 
     // Constructor that takes the title, artist, album, genre, and file path of the track
@@ -39,6 +39,8 @@ public class MusicTrack implements Serializable, Comparable<MusicTrack> {
             // get duration of the track in seconds
             this.trackDuration = player.getTotalDuration().toSeconds();
         } else {
+            this.trackDuration = 0;
+            //System.err.println("Invalid file path: " + this.filepath);
             throw new IllegalArgumentException("Invalid file path: " + this.filepath);
         }
     }

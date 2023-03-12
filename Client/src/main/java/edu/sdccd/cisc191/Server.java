@@ -1,8 +1,12 @@
-package edu.sdccd.cisc191.template;
+/*
+package edu.sdccd.cisc191;
 
 import java.net.*;
 import java.io.*;
 
+
+
+*/
 /**
  * This program is a server that takes connection requests on
  * the port specified by the constant LISTENING_PORT.  When a
@@ -11,8 +15,11 @@ import java.io.*;
  * and process connections until it is killed (by a CONTROL-C,
  * for example).  Note that this server processes each connection
  * as it is received, rather than creating a separate thread
- * to process the connection.
- */
+ * to process the connection.*//*
+
+
+
+
 public class Server {
     private ServerSocket serverSocket;
     private Socket clientSocket;
@@ -51,3 +58,4 @@ public class Server {
 //        }
     }
 } //end class Server
+*/

@@ -21,6 +21,7 @@ public class Styles {
             button.setStyle("-fx-background-color: #0072C6;");
         });
 
+        // Set the text of the button to a unicode symbol based on the button text
         String symbol;
         switch (button.getText()) {
             case "Play/Pause":
