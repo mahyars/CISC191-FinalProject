@@ -1,5 +1,5 @@
 package edu.sdccd.cisc191;
-/**
+/*
  * CISC191 Architect Assignment 1
  * @author Mahyar saadati
  **/
