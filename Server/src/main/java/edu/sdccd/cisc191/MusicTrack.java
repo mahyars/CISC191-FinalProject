@@ -88,7 +88,7 @@ public class MusicTrack implements Serializable, Comparable<MusicTrack> {
         }
     }
 
-    // Getter methods for the title, artist, album, genre, and file path of the track
+    // Getter methods for the title, artist, album, genre, year, and file path of the track
     public String getTitle() {
 
         return title;
@@ -112,6 +112,14 @@ public class MusicTrack implements Serializable, Comparable<MusicTrack> {
     public String getFilepath() {
 
         return filepath;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int newYear) {
+        year = newYear;
     }
 
     // Getter method for the duration of the track
