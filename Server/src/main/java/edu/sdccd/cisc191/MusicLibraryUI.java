@@ -1,5 +1,5 @@
 package edu.sdccd.cisc191;
-/**
+/*
  * CISC191 Architect Assignment 1
  * @author Mahyar saadati
  **/
@@ -38,7 +38,7 @@ public class MusicLibraryUI extends VBox {
         timeLabel = new Label("0:00");
         addTrackButton = new Button("Add Track");
         removeTrackButton = new Button("Remove Track");
-        trackListView = new ListView<MusicTrack>();
+        trackListView = new ListView<>();
 
         // Create an ObservableList from the ArrayList returned by library.getTracks()
         ObservableList<MusicTrack> observableTracks = FXCollections.observableArrayList(library.getTracks());
